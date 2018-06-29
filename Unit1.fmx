@@ -1,0 +1,80 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 570
+  ClientWidth = 380
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Size.Width = 364.000000000000000000
+    Size.Height = 264.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnGerar: TButton
+    Align = Top
+    Margins.Left = 4.000000000000000000
+    Margins.Top = 4.000000000000000000
+    Margins.Right = 4.000000000000000000
+    Margins.Bottom = 4.000000000000000000
+    Position.X = 4.000000000000000000
+    Position.Y = 4.000000000000000000
+    Size.Width = 372.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Gerar QRCode'
+    OnClick = btnGerarClick
+  end
+  object Button1: TButton
+    Action = TakePhotoFromCameraAction1
+    Align = Top
+    Enabled = True
+    ImageIndex = -1
+    Margins.Left = 4.000000000000000000
+    Margins.Top = 4.000000000000000000
+    Margins.Right = 4.000000000000000000
+    Margins.Bottom = 4.000000000000000000
+    Position.X = 4.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 372.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+  end
+  object memQrCode: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Bottom
+    Position.Y = 384.000000000000000000
+    Size.Width = 380.000000000000000000
+    Size.Height = 186.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Viewport.Width = 372.000000000000000000
+    Viewport.Height = 178.000000000000000000
+  end
+  object FObr1: TFObr
+    Left = 56
+    Top = 152
+  end
+  object ActionList1: TActionList
+    Left = 120
+    Top = 152
+    object TakePhotoFromCameraAction1: TTakePhotoFromCameraAction
+      Category = 'Media Library'
+      CustomText = 'Ler QrCode'
+      OnDidFinishTaking = TakePhotoFromCameraAction1DidFinishTaking
+    end
+  end
+end

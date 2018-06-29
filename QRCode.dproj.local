@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/05/28 13:59:17.000.704,=D:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/30 17:12:11.000.493,=D:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/01 16:44:31.000.666,=D:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/21 18:41:56.122,=D:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/21 19:08:11.297,D:\Lives\Tira-Teima\gerando-qrcode\Unit1.pas=D:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/21 19:08:11.297,D:\Lives\Tira-Teima\gerando-qrcode\Unit1.fmx=D:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2018/06/21 19:08:21.475,D:\Lives\Tira-Teima\gerando-qrcode\QRCode.dproj=D:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/06/21 19:10:11.553,=D:\Lives\Tira-Teima\gerando-qrcode\utils\FMXDelphiZXIngQRCode.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0023109677"/>  <PmacOS iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
